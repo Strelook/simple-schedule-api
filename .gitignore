@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# --- Виртуальное окружение ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Конфигурация и секреты ---
+.env
+.env.*
+!.env.example
+
+# --- База данных ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- IDE / редакторы ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
+
+# --- Тесты и инструменты ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
